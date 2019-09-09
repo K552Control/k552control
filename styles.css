@@ -1,0 +1,41 @@
+
+
+@font-face {
+   font-family: Font;
+   src: url(fonts/regular.otf);
+}
+
+* {
+   font-family: Font;
+}
+
+h1 {
+   font-size: 300%; //makes font bigger on 50% 
+}
+.header {
+  padding: 35px;
+ 
+  background: #1C1C1C;
+  color: white;
+  font-size: 30px;
+}
+.content {padding:20px;}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.header2 {
+  padding: 35px;
+  text-align: center;
+  background: #FFFFFF;
+  color: white;
+}
